@@ -1,0 +1,32 @@
+*{
+    font-family: 'Courier New', Courier, monospace;
+    
+}
+.container{
+    margin:0;
+    background-color: gainsboro;
+}
+.container > h1{
+    font-size: 3.5em;
+    background-color: black;
+    color:gold;
+    text-decoration: overline underline;
+    text-align: center;
+    padding: 2rem 1rem 2rem 2rem ;
+    margin:0;
+}
+.wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.ship{
+    width: 330px;
+    display: flex;
+    flex-direction: column;
+    padding:1rem;
+    margin: 1rem;
+    background-color: black;
+    color:rgb(199, 170, 3);
+    
+}
